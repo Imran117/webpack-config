@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    &::before,
+    &::after {
+        font-family: 'Webfonts';
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat';
+    background-color: $bg;
+}
+
+.container {
+    @include container();
+}
+
+.row {
+    @include row(0);
+}

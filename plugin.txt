@@ -1,0 +1,26 @@
+1. webpack - webpack ishlashligi uchun ozi
+2. webpack-cli - webpack instrumentni ishga tushurish uchun kerak boladigan plagin
+3. webpack-dev-server - webpackda ishlayotkanimizada server ochib berish uchun kerak boladigan dastur
+
+4. html-webpack-plugin - html fayimizani ozgartirish uchun kerak boladi
+5. style-loader, css-loader - bu plaginlar yordamida css falylarimizani js chunadigan qiladi va ozgartirish uchun kerak boladigan
+6. mini-css-extract-plugin - yozgan kodimizani mini qilib beradi
+7. postcss postcss-loader postcss-preset-env - cssda yozgan kodimizaga prefixlar qoshib beradi
+8. sass sass-loader - scss ishlatish uchun kerak boladigan plaginlar
+9. group-css-media-queries-loader - medialarni olib css faylni ohriga qoyadi
+10. babel-loader @babel/core @babel/preset-env - js scriptimizani kodlarini eski kodga ozgartirib beradi
+11. html-loader 
+17ta plagin bolishi kerak
+
+
+
+
+
+
+
+
+
+
+
+
+

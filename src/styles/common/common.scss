@@ -1,0 +1,33 @@
+// common.scss ichida projectda ishlatilingan ranglar va fontlar yoziladi
+
+$bg: #E5E5E5;
+$grey: #E1E1E1;
+$greyDark: #323232;
+$white: #FFFFFF;
+$black:#000000;
+
+
+$Montserrat: ('Regular', 400),
+            ('Bold',    700);
+
+@each $name, $weight in $Montserrat {
+    @font-face {
+        font-family: "Montserrat";
+        src: url(../fonts/Montserrat/Montserrat-#{$name}.ttf);
+        font-weight: $weight;
+    }
+}
+
+$Webfonts:  ('brands-400', 400),
+            ('duotone-900', 900),
+            ('light-300', 300),
+            ('regular-400', 401),
+            ('solid-900', 901);
+
+@each $name, $weight in $Webfonts {
+    @font-face {
+        font-family: 'Webfonts';
+        src: url(../fonts/webfonts/fa-#{$name}.ttf);
+        font-weight: $weight;
+    }
+}
